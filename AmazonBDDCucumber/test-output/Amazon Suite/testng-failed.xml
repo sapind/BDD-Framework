@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" parallel="tests" name="Failed suite [Amazon Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Amazon BDD Test(failed)">
+    <classes>
+      <class name="com.qa.amazon.runner.TestRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.qa.amazon.runner.TestRunner -->
+    </classes>
+  </test> <!-- Amazon BDD Test(failed) -->
+</suite> <!-- Failed suite [Amazon Suite] -->
